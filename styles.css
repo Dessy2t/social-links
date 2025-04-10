@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+
+* {
+    font-family: Inter;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 4rem;
+    text-align: center;
+    background-color: #333333;
+
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    border-radius: 6rem;
+}
+
+.location {
+    color: #c5f82a;
+}
+
+.github {
+    padding: 10px 200px;
+    display: inline-block;
+    background-color: #444040;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.github:hover {
+    background-color: #c5f82a;
+    color: black;
+    transition: 0.7s;
+}
+
+.front_mentor {
+    padding: 10px 173px;
+    display: inline-block;
+    background-color: #444040;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.front_mentor:hover {
+    background-color: #c5f82a;
+    color: black;
+    transition: 0.7s;
+}
+
+.linkedin {
+    padding: 10px 200px;
+    display: inline-block;
+    background-color: #444040;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.linkedin:hover {
+    background-color: #c5f82a;
+    color: black;
+    transition: 0.7s;
+}
+
+.twitter {
+    padding: 10px 205px;
+    display: inline-block;
+    background-color: #444040;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.twitter:hover {
+    background-color: #c5f82a;
+    color: black;
+    transition: 0.7s;
+}
+
+.instagram {
+    padding: 10px 195px;
+    display: inline-block;
+    background-color: #444040;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+
+.instagram:hover {
+    background-color: #c5f82a;
+    color: black;
+    transition: 0.7s;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
