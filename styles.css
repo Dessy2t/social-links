@@ -13,13 +13,23 @@ body{
 
 main {
     text-align: center;
-    background-color: #333333;
+    background-color: #1f1f1f;
     min-height: 90vh;
     max-width: 500px;
     margin: 1rem auto ;
     border-radius: 1rem;
     padding: 1rem;
 
+}
+h1{
+    color: #fff;
+    /* margin: 1rem 1rem; */
+    margin-block: 1rem;
+    
+}
+h3{
+    color: #ebe6e6;
+    margin-block: 1rem;
 }
 
 figure {
@@ -34,8 +44,23 @@ img {
     color: #c5f82a;
 }
 
-.btn_container {}
+li{
+    background-color: #333333;
+    margin: 1rem 2rem;
+    border-radius: 0.5rem;
+padding-block: 0.8rem;
+}
 
+ul a{
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #c5f82a;
+    transition: 0.7s;
+}
 
 .attribution {
     font-size: 11px;
